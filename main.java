@@ -25,19 +25,8 @@ public class Main {
    private static int add(int a, int b) {
        return a + b;
    }
+   private static int sub(int a, int b) {
+       return a - b;
+   }
 }
-
-Commands
 
- mkdir git-demo-prabhath
-
-notepad Main.java
-
-Esc
-:q!
-
-Git init
-Git status
-git add .
-Git status
-git commit -m "Added Main.java"
